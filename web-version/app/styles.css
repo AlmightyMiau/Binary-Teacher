@@ -36,6 +36,10 @@
     height: 31;
 }
 
+pre {
+	font-family: "FreePixel";
+}
+
 html,
 body {
     margin: 0;
@@ -94,7 +98,7 @@ aside {
     border-top: var(--border);
     border-bottom: var(--border);
     margin-bottom: -2px;
-    font-size: 20px;
+    font-size: 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -149,6 +153,7 @@ button {
     border: none;
     color:rgb(148, 37, 37);
     margin:5px;
+	cursor: pointer;
 
     /* THIS DISABLES NAV TOGGLE BUTTONS */
     /* display: none; */

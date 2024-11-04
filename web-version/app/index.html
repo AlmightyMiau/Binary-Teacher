@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="styles.css" rel="stylesheet">
+		<!--<link href="styles.css" rel="stylesheet">-->
+		<title>Binary Teacher</title>
+	</head>
+
+	<body style="background: #110011; color: #ffaaff">
+		<div id="container">
+			<div id="flex">
+				<main>
+					<div class="title">ASCII Data</div>
+					<div class="content">
+						<table>
+							<tr>
+								<td>
+									Binary:
+								</td>
+								<td id="item-binary"></td>
+							</tr>
+							<tr>
+								<td>
+									Hex:
+								</td>
+								<td id="item-hex"></td>
+							</tr>
+							<tr>
+								<td>
+									Ascii:
+								</td>
+								<td id="item-char"></td>
+							</tr>
+						</table>
+						<p>Binary: <b id="question-binary"></b></p>
+						<p>Correct character: <b id="question-char"></b></p>
+						<p>Ascci: 
+							<input id="input-char" type="text" style="background: #661166; color: #ffaaff">
+							<button id="submit-char">Submit</button>
+						</p>
+						<p id="correct">i</p>
+					</div>
+				</main>
+			</div>
+		</div>
+		<script src="binary.js"></script>
+	</body>
+</html>
